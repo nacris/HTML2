@@ -1,0 +1,75 @@
+header{
+background: lightgray;
+position: relative;
+height: 60px; 
+border-radius: 0px 0px 50px 50px;
+
+}
+
+nav{
+background: lightgray;
+position: absolute;
+height: 30px; width: 300px;
+top: 110px;
+border-radius: 0px 40px 0px 40px;
+
+}
+nav:hover{
+	background:#F0FFFF;
+}
+
+nav ul{
+font-style: italic;
+text-transform: uppercase;
+background: green;
+position: absolute;
+width: 290px; height: 0px;
+left: -30px; right: 0px;
+top: -10px;
+
+}
+
+nav li{
+list-style: none;
+display: inline-block;
+
+}
+
+nav li:hover{
+background: #C0C0C0;
+
+}
+
+article{
+background: lightgray;
+position: relative;
+height: 550px; width: 600px;
+left: 400px;
+top: 5px;
+border-radius: 50px 50px 30px 30px;
+
+}
+
+footer{
+background: lightgray;
+position: relative;
+height: 70px;
+border: none;
+border-radius: 70px 70px 0px 0px;
+
+}
+
+body{
+position: relative;
+height: 200px; width: 1000px;
+left: 100px;
+background: #696969;
+}
+
+#rodape{
+background:lightgrey;
+position: relative;
+height: 120px; width:80px;
+left: 80px;
+
+}

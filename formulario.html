@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário </title>
+</head>
+<body>
+<form action="script/envio.php" method="POST">
+<table border="6 ">
+	<tr><td>
+<label> Nome:</td><td> <input type="text" name="nome" placeholder="Digite seu nome" required="required"> </label> <br></td></tr>
+<tr><td>
+<label> E-mail:</td><td> <input type="email" name="email" placeholder="Informe o seu e-mail" required="required"> </label> <br></td></tr>
+<tr><td>
+<label> Cep:</td><td> <input type="number" name="Cep" placeholder="Informe o seu Cep"> </label> <br></td></tr>
+<tr><td>
+<label> Data de Nascimento:</td><td> <input type="date" name="Nascimento"> </label> <br>
+<tr><td>
+<label> Senha:</td><td> <input type="password" name="senha" placeholder="Crie uma senha" required="required"> </label> <br></td></tr>
+<tr><td>
+<label>Senha:</td><td> <input type="password" name="Confirme" placeholder="Confirme a senha" required="required"> </label> <br></td></tr>
+<tr>
+	<td><label>Documento:</label></td><td>CNPJ: <input type="radio" name="cnpj">  CPF: <input type="radio" name="cpf">
+</td></tr>
+ 
+
+<tr><td><label>Deixe a sua mensagem</label></td>
+<td><textarea placeholder="Deixe sua mensagem"> </textarea></td></tr>
+
+<tr><td><td>
+<input type="submit" name="submit">
+<input type="reset" name="reset" value="limpa dados"></td></tr></td>
+
+<select name="Estado">
+	<option name="sp"> São paulo</option>
+<option name="rj">Rio de Janeiro</option>
+<option name='pr'>Paraná</option>
+<option name='sc'>Santa Catarina</option>
+</select>
+</table></form>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulário de Contato</title>
+</head>
+<h1>Formulário de Contato</h1>
+<hr>
+<body>
+<form action="script/envio.php" method="POST">
+<table border="3">
+	<p>
+		Nome: <input type="txt" name="name" placeholder="Digite seu nome:"></p>
+
+		<p>Email: <input type="email" name="email" placeholder="Digite seu e-mail"></p>
+		<p>Assunto: <input type="txt" name="assunto" placeholder="Especifique o assunto"></p>
+	
+	<textarea cols="30" rows="10" name="mensagem" placeholder="Deixe a sua mensagem"></textarea>
+	<br>
+</form>
+
+<input type="submit" name="submit">
+<input type="reset" name="reset" value="limpa dados">
